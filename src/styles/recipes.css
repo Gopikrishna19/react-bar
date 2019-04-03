@@ -1,0 +1,18 @@
+.recipes {
+    display: flex;
+    justify-content: center;
+}
+
+.recipe {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+.name {
+    text-align: center;
+    text-transform: capitalize;
+}

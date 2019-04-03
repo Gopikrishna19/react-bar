@@ -7,5 +7,6 @@
 
 .title,
 .subTitle {
-    text-align: center
+    padding-top: 2em;
+    text-align: center;
 }

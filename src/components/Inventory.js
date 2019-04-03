@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import {InventoryItem} from './InventoryItem';
+import {Ingredient} from './Ingredient';
 import barStyles from '../styles/bar.css';
 import inventoryStyles from '../styles/inventory.css';
 
@@ -10,7 +10,8 @@ export const Inventory = props =>
         <ul className={inventoryStyles.inventory}>
             {
                 props.inventory.map((item, index) =>
-                    <InventoryItem
+                    <Ingredient
+                        className={inventoryStyles.ingredient}
                         key={index}
                         liquid={item.liquid}
                         quantity={item.quantity}
@@ -23,7 +24,7 @@ export const Inventory = props =>
 
 Inventory.displayName = 'Inventory';
 Inventory.propTypes = {
-    inventory: PropTypes.arrayOf(PropTypes.shape(InventoryItem.propTypes))
+    inventory: PropTypes.arrayOf(PropTypes.shape(Ingredient.propTypes))
 };
 Inventory.defaultProps = {
     inventory: []

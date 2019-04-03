@@ -1,0 +1,98 @@
+[
+  {
+    "name": "bloody mary",
+    "ingredients": [
+      {
+        "name": "vodka",
+        "quantity": 2,
+        "liquid": true
+      },
+      {
+        "name": "bloody mary mix",
+        "quantity": 4,
+        "liquid": true
+      },
+      {
+        "name": "celery stalks",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "martini",
+    "ingredients": [
+      {
+        "name": "gin",
+        "quantity": 2,
+        "liquid": true
+      },
+      {
+        "name": "dry vermouth",
+        "quantity": 1,
+        "liquid": true
+      },
+      {
+        "name": "olives",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "margarita",
+    "ingredients": [
+      {
+        "name": "tequila",
+        "quantity": 2,
+        "liquid": true
+      },
+      {
+        "name": "orange juice",
+        "quantity": 1,
+        "liquid": true
+      },
+      {
+        "name": "agave nectar",
+        "quantity": 1,
+        "liquid": true
+      },
+      {
+        "name": "limes",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "screwdriver",
+    "ingredients": [
+      {
+        "name": "vodka",
+        "quantity": 2,
+        "liquid":  true
+      },
+      {
+        "name": "orange juice",
+        "quantity": 4,
+        "liquid": true
+      }
+    ]
+  },
+  {
+    "name": "manhattan",
+    "ingredients": [
+      {
+        "name": "whiskey",
+        "quantity": 2,
+        "liquid": true
+      },
+      {
+        "name": "sweet vermouth",
+        "quantity": 1,
+        "liquid": true
+      },
+      {
+        "name": "cherries",
+        "quantity": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+.name {
+    flex-grow: 1;
+    text-transform: capitalize;
+}
+
+.unit {
+    color: #888;
+    flex-basis: 20px;
+}
+
+.unit:before {
+    content: "\00a0";
+}
