@@ -1,0 +1,63 @@
+[
+  {
+    "name": "gin",
+    "quantity": 50,
+    "liquid": true
+  },
+  {
+    "name": "vodka",
+    "quantity": 25,
+    "liquid": true
+  },
+  {
+    "name": "tequila",
+    "quantity": 25,
+    "liquid": true
+  },
+  {
+    "name": "whiskey",
+    "quantity": 25,
+    "liquid": true
+  },
+  {
+    "name": "dry vermouth",
+    "quantity": 25,
+    "liquid": true
+  },
+  {
+    "name": "sweet vermouth",
+    "quantity": 25,
+    "liquid": true
+  },
+  {
+    "name": "bloody mary mix",
+    "quantity": 67,
+    "liquid": true
+  },
+  {
+    "name": "agave nectar",
+    "quantity": 24,
+    "liquid": true
+  },
+  {
+    "name": "orange juice",
+    "quantity": 48,
+    "liquid": true
+  },
+  {
+    "name": "celery stalks",
+    "quantity": 16
+  },
+  {
+    "name": "cherries",
+    "quantity": 9
+  },
+  {
+    "name": "olives",
+    "quantity": 24
+  },
+  {
+    "name": "limes",
+    "quantity": 36
+  }
+]

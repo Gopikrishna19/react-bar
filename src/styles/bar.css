@@ -1,0 +1,11 @@
+.bar {
+    display: grid;
+    grid-template-areas:
+        "inventory"
+        "recipes";
+}
+
+.title,
+.subTitle {
+    text-align: center
+}
