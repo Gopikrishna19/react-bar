@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Gopikrishna19/react-bar#readme",
   "dependencies": {
     "@gs-utils/web-toolkit": "^2.1.1",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
