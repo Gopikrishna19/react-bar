@@ -1,0 +1,25 @@
+{
+  "name": "react-bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gs-web-toolkit build",
+    "start": "gs-web-toolkit serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gopikrishna19/react-bar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gopikrishna19/react-bar/issues"
+  },
+  "homepage": "https://github.com/Gopikrishna19/react-bar#readme",
+  "dependencies": {
+    "@gs-utils/web-toolkit": "^2.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
