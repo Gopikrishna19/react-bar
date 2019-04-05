@@ -49,21 +49,25 @@ describe('<RecipeCounter/>', () => {
 
     describe('when the decrement button is clicked', () => {
         beforeEach(() => {
-            getIncrementButton().simulate('click');
+            const incrementButton = getIncrementButton();
+
+            incrementButton.simulate('click');
+            incrementButton.simulate('click');
         });
 
         it('should decrement the count', () => {
-            expect(getCount()).toBe('1');
+            expect(getCount()).toBe('2');
 
             getDecrementButton().simulate('click');
-            expect(getCount()).toBe('0');
+            expect(getCount()).toBe('1');
         });
 
         it('should not decrement the count below zero', () => {
             const decrementButton = getDecrementButton();
 
-            expect(getCount()).toBe('1');
+            expect(getCount()).toBe('2');
 
+            decrementButton.simulate('click');
             decrementButton.simulate('click');
             expect(getCount()).toBe('0');
 
