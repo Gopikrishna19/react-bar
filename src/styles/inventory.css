@@ -1,16 +1,16 @@
 .inventory {
-    grid-area: inventory;
     display: flex;
     flex-flow: row wrap;
+    grid-area: inventory;
     justify-content: center;
-    max-width: 1300px;
     margin: auto;
+    max-width: 1300px;
 }
 
 .ingredient {
+    border-bottom: 1px solid #ccc;
     display: flex;
     margin: 0 20px;
-    width: 200px;
     padding: 10px 0;
-    border-bottom: 1px solid #ccc;
+    width: 200px;
 }
