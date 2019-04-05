@@ -1,0 +1,110 @@
+.name--1Ym8H {
+    flex-grow: 1;
+    text-transform: capitalize;
+}
+
+.unit--1JqF6 {
+    color: #888;
+    flex-basis: 20px;
+}
+
+.unit--1JqF6:before {
+    content: "\00a0";
+}
+
+.bar--V-UBg {
+    display: grid;
+    grid-template-areas:
+        "inventory"
+        "recipes";
+}
+
+.title--1Zy7x,
+.subTitle--1K4_t {
+    padding-top: 2em;
+    text-align: center;
+}
+
+.inventory--1NwqG {
+    display: flex;
+    flex-flow: row wrap;
+    grid-area: inventory;
+    justify-content: center;
+    margin: auto;
+    max-width: 1300px;
+}
+
+.ingredient--1BL4a {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    margin: 0 20px;
+    padding: 10px 0;
+    width: 200px;
+}
+
+.recipes--GlTjC {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.recipe--i4KYP {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+.name--yTEso {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.counter--1-XVf {
+    align-items: baseline;
+    display: flex;
+    justify-content: center;
+}
+
+.counterDecrementButton--2WfJj,
+.counterIncrementButton--1fCYM {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    padding: 0 10px;
+}
+
+.counterDecrementButton--2WfJj,
+.counterIncrementButton--1fCYM,
+.count--O7B-3 {
+    font-size: 1.5em;
+}
+
+.ingredients--uE2x7 {
+    flex-grow: 1;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.ingredient--JOjc4 {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+html,
+body {
+    background-color: #eee;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
