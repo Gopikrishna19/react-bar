@@ -3,7 +3,7 @@ import {Inventory} from './Inventory';
 import barStyles from '../styles/bar.css';
 import {Recipes} from './Recipes';
 
-export class Bar extends Component {
+export class App extends Component {
     state = {};
 
     getInventory = async () => {
@@ -36,4 +36,4 @@ export class Bar extends Component {
     }
 }
 
-Bar.displayName = 'Bar';
+App.displayName = 'App';
